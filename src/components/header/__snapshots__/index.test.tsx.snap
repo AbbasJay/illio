@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly to snapshot 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__ticker"
+  >
+    <span>
+      Ticker
+    </span>
+    <input
+      readOnly={true}
+      value="MCD"
+    />
+  </div>
+  <div
+    className="header__from"
+  >
+    <span>
+      From
+    </span>
+    <input
+      className="date-from-input"
+      onChange={[Function]}
+      type="date"
+      value="2020-01-01"
+    />
+  </div>
+  <div
+    className="header__to"
+  >
+    <span>
+      To
+    </span>
+    <input
+      className="date-to-input"
+      onChange={[Function]}
+      type="date"
+      value="2020-01-05"
+    />
+  </div>
+</div>
+`;
